@@ -1,0 +1,348 @@
+/* Reset some default browser styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body, h1, h2, h3, p, ul, li {
+    margin: 10px 5px 10px 5px;
+    padding: 10px 10px 10px 10px;
+    background-color:rgba(235, 199, 137, 0.524);
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+h1 {
+    font-family: 'Satisfy', cursive;
+}
+/* Set a background color and font styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    background-attachment: fixed;
+    background-image: -webkit-linear-gradient(right top, rgba(228, 230, 195, 0.435), rgba(149, 150, 130, 0.459)), url(img/texture2.jpg);
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+a:link {
+    color: rgb(2, 14, 2);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  img {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+  }
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the sections */
+section {
+    background-color: rgb(34, 39, 37);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.product {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.product img {
+    max-width: 100%;
+    float: left;
+    display: block;
+}
+
+.product .product-box {
+    float: left;
+    background-color:rgba(235, 199, 137, 0.524);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.product .product-box h3,
+.product .product-box p {
+background: transparent;
+}
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+.bg-cover {
+    max-width: 350px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.nav-width {
+    max-width: 680px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product-list section {
+    vertical-align: inherit;
+    overflow: hidden;
+    padding: 0;
+    width: 40%;
+}
+
+.center {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.center a {
+    display: inline-block;
+
+}
+
+.product-list2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product-list2 section {
+    vertical-align: inherit;
+    overflow: hidden;
+    padding: 0;
+    width: 65%;
+}
+
+.guitar-list li {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.box {  
+    display: block;
+    float: left;
+    width: 75%;
+}
+
+.box1 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.box1 img {
+    width: auto;
+    height: 100%;
+    max-height: 300px;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.box2 {
+    margin-right: 10px;
+}
+
+.box3 {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#contacto-section {
+    padding: 10px;
+    margin: 0;
+    background: transparent;
+    box-shadow: none;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#contacto-section .content {
+    background-color: rgba(235, 199, 137, 0.524);
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+
+.contacto-1 {
+    width: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+
+}
+
+.contacto-0 {
+    width: 500px;
+}
+
+
+.contacto .icon {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+.contacto .icon span, 
+.contacto .icon a {
+    background-image: url(/img/icons/geo-alt.svg);
+    background-size: 10px;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    padding-left: 15px;
+    color: black;
+}
+
+
+.contacto .icon.tel a {
+    background-image: url(/img/icons/telephone.svg);
+    
+}
+
+.contacto .icon.mail a {
+    background-image: url(/img/icons/envelope.svg);
+    
+}
+
+.contacto .icon.instagram a {
+    background-image: url(/img/icons/instagram.svg);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    padding-left: 0;
+
+}
+
+.contacto .icon.facebook a {
+    background-image: url(/img/icons/facebook.svg);
+        width: 20px;
+    height: 20px;
+    background-size: cover;
+    padding-left: 0;
+}
+
+.contacto-1 .icon {
+    width: 30px;
+    height: 20px;
+
+}
+
+.text {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.text2 {
+    font-size: 30px;
+}
+
+header {
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    left: 30px;
+    top: 30%;
+}
+
